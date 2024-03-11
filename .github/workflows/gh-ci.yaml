@@ -39,7 +39,7 @@ jobs:
           release: "latest"
 
   main-tests:
-    if: "github.repository == 'ljwoods2/zarrtraj'"
+    if: "github.repository == 'Becksteinlab/zarrtraj'"
     needs: environment-config
     runs-on: ${{ matrix.os }}
     strategy:
